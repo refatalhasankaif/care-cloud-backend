@@ -18,7 +18,7 @@ router.get("/:id",
 )
 
 router.patch("/:id",
-    checkAuth(Role.ADMIN, Role.SUPER_ADMIN),
+    checkAuth(Role.SUPER_ADMIN),
     validateRequest(adminValidation.updateAdminValidationSchema),
     adminController.updateAdmin
 )
