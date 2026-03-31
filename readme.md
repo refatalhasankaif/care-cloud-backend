@@ -1,4 +1,4 @@
-# Medi-Cloud-Pro — Backend
+# Medicare-Cloud-Pro — Backend
 
 > A production-ready healthcare management API for online doctor consultations, appointment scheduling, prescriptions, and payment processing.
 
@@ -25,14 +25,14 @@ A complete walkthrough of the project covering features, architecture, and imple
 
 | | Link |
 |---|---|
-| 📦 Backend Repo | [github.com/refatalhasankaif/medi-cloud-pro-backend](https://github.com/refatalhasankaif/medi-cloud-pro-backend) |
+| 📦 Backend Repo | [github.com/refatalhasankaif/medicare-cloud-pro-backend](https://github.com/refatalhasankaif/medicare-cloud-pro-backend) |
 | 🎨 Frontend Repo | — |
 
 ---
 
 ## 📖 Overview
 
-Medi-Cloud-Pro is a full-stack healthcare platform backend that enables patients to book appointments with doctors, attend video consultations, receive digital prescriptions, and manage medical records. The backend is built with a modular, layered architecture using Node.js and Express 5, backed by PostgreSQL via Prisma ORM, and secured with JWT-based session authentication via better-auth.
+Medicare-Cloud-Pro is a full-stack healthcare platform backend that enables patients to book appointments with doctors, attend video consultations, receive digital prescriptions, and manage medical records. The backend is built with a modular, layered architecture using Node.js and Express 5, backed by PostgreSQL via Prisma ORM, and secured with JWT-based session authentication via better-auth.
 
 Key capabilities include multi-role access control (Super Admin, Admin, Doctor, Patient), complete appointment lifecycle management, Stripe-powered payment processing for consultation fees, digital prescriptions, and medical document storage via cloud.
 
